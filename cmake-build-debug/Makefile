@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ukrgerri4/CLion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/ukrgerri4/CLion/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ukrgerri4/CLionProjects/lem-in
+CMAKE_SOURCE_DIR = /nfs/2016/i/ikryvenk/ClionProjects/lem-in
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ lem_in/fast:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/build
 .PHONY : lem_in/fast
 
+basic_function.o: basic_function.c.o
+
+.PHONY : basic_function.o
+
+# target to build an object file
+basic_function.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/basic_function.c.o
+.PHONY : basic_function.c.o
+
+basic_function.i: basic_function.c.i
+
+.PHONY : basic_function.i
+
+# target to preprocess a source file
+basic_function.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/basic_function.c.i
+.PHONY : basic_function.c.i
+
+basic_function.s: basic_function.c.s
+
+.PHONY : basic_function.s
+
+# target to generate assembly for a file
+basic_function.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/basic_function.c.s
+.PHONY : basic_function.c.s
+
+libft/ft_error.o: libft/ft_error.c.o
+
+.PHONY : libft/ft_error.o
+
+# target to build an object file
+libft/ft_error.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/libft/ft_error.c.o
+.PHONY : libft/ft_error.c.o
+
+libft/ft_error.i: libft/ft_error.c.i
+
+.PHONY : libft/ft_error.i
+
+# target to preprocess a source file
+libft/ft_error.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/libft/ft_error.c.i
+.PHONY : libft/ft_error.c.i
+
+libft/ft_error.s: libft/ft_error.c.s
+
+.PHONY : libft/ft_error.s
+
+# target to generate assembly for a file
+libft/ft_error.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/libft/ft_error.c.s
+.PHONY : libft/ft_error.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.s
 .PHONY : main.c.s
 
+validation.o: validation.c.o
+
+.PHONY : validation.o
+
+# target to build an object file
+validation.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.o
+.PHONY : validation.c.o
+
+validation.i: validation.c.i
+
+.PHONY : validation.i
+
+# target to preprocess a source file
+validation.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.i
+.PHONY : validation.c.i
+
+validation.s: validation.c.s
+
+.PHONY : validation.s
+
+# target to generate assembly for a file
+validation.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation.c.s
+.PHONY : validation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lem_in"
+	@echo "... basic_function.o"
+	@echo "... basic_function.i"
+	@echo "... basic_function.s"
+	@echo "... libft/ft_error.o"
+	@echo "... libft/ft_error.i"
+	@echo "... libft/ft_error.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... validation.o"
+	@echo "... validation.i"
+	@echo "... validation.s"
 .PHONY : help
 
 
