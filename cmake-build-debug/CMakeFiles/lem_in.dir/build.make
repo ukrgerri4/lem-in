@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ukrgerri4/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/ukrgerri4/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/i/ikryvenk/ClionProjects/lem-in
+CMAKE_SOURCE_DIR = /home/ukrgerri4/CLionProjects/lem-in
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lem_in.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lem_in.dir/flags.make
 
 CMakeFiles/lem_in.dir/main.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lem_in.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/main.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/lem-in/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lem_in.dir/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/main.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/main.c
 
 CMakeFiles/lem_in.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/lem-in/main.c > CMakeFiles/lem_in.dir/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/main.c > CMakeFiles/lem_in.dir/main.c.i
 
 CMakeFiles/lem_in.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/lem-in/main.c -o CMakeFiles/lem_in.dir/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/main.c -o CMakeFiles/lem_in.dir/main.c.s
 
 CMakeFiles/lem_in.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lem_in.dir/main.c.o.provides.build: CMakeFiles/lem_in.dir/main.c.o
 
 CMakeFiles/lem_in.dir/validation.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/validation.c.o: ../validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lem_in.dir/validation.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/lem-in/validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lem_in.dir/validation.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/validation.c
 
 CMakeFiles/lem_in.dir/validation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/lem-in/validation.c > CMakeFiles/lem_in.dir/validation.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation.c > CMakeFiles/lem_in.dir/validation.c.i
 
 CMakeFiles/lem_in.dir/validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/lem-in/validation.c -o CMakeFiles/lem_in.dir/validation.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation.c -o CMakeFiles/lem_in.dir/validation.c.s
 
 CMakeFiles/lem_in.dir/validation.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/lem_in.dir/validation.c.o.provides.build: CMakeFiles/lem_in.dir/valid
 
 CMakeFiles/lem_in.dir/basic_function.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/basic_function.c.o: ../basic_function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lem_in.dir/basic_function.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/basic_function.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/lem-in/basic_function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lem_in.dir/basic_function.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/basic_function.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/basic_function.c
 
 CMakeFiles/lem_in.dir/basic_function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/basic_function.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/lem-in/basic_function.c > CMakeFiles/lem_in.dir/basic_function.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/basic_function.c > CMakeFiles/lem_in.dir/basic_function.c.i
 
 CMakeFiles/lem_in.dir/basic_function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/basic_function.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/lem-in/basic_function.c -o CMakeFiles/lem_in.dir/basic_function.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/basic_function.c -o CMakeFiles/lem_in.dir/basic_function.c.s
 
 CMakeFiles/lem_in.dir/basic_function.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/lem_in.dir/basic_function.c.o.provides.build: CMakeFiles/lem_in.dir/b
 
 CMakeFiles/lem_in.dir/libft/ft_error.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/libft/ft_error.c.o: ../libft/ft_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lem_in.dir/libft/ft_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/libft/ft_error.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/lem-in/libft/ft_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lem_in.dir/libft/ft_error.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/libft/ft_error.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c
 
 CMakeFiles/lem_in.dir/libft/ft_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/libft/ft_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/lem-in/libft/ft_error.c > CMakeFiles/lem_in.dir/libft/ft_error.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c > CMakeFiles/lem_in.dir/libft/ft_error.c.i
 
 CMakeFiles/lem_in.dir/libft/ft_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/libft/ft_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/lem-in/libft/ft_error.c -o CMakeFiles/lem_in.dir/libft/ft_error.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c -o CMakeFiles/lem_in.dir/libft/ft_error.c.s
 
 CMakeFiles/lem_in.dir/libft/ft_error.c.o.requires:
 
@@ -153,12 +153,87 @@ CMakeFiles/lem_in.dir/libft/ft_error.c.o.provides: CMakeFiles/lem_in.dir/libft/f
 CMakeFiles/lem_in.dir/libft/ft_error.c.o.provides.build: CMakeFiles/lem_in.dir/libft/ft_error.c.o
 
 
+CMakeFiles/lem_in.dir/init_room.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/init_room.c.o: ../init_room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lem_in.dir/init_room.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/init_room.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/init_room.c
+
+CMakeFiles/lem_in.dir/init_room.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/init_room.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/init_room.c > CMakeFiles/lem_in.dir/init_room.c.i
+
+CMakeFiles/lem_in.dir/init_room.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/init_room.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/init_room.c -o CMakeFiles/lem_in.dir/init_room.c.s
+
+CMakeFiles/lem_in.dir/init_room.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/init_room.c.o.requires
+
+CMakeFiles/lem_in.dir/init_room.c.o.provides: CMakeFiles/lem_in.dir/init_room.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/init_room.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/init_room.c.o.provides
+
+CMakeFiles/lem_in.dir/init_room.c.o.provides.build: CMakeFiles/lem_in.dir/init_room.c.o
+
+
+CMakeFiles/lem_in.dir/validation_room.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/validation_room.c.o: ../validation_room.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem_in.dir/validation_room.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation_room.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/validation_room.c
+
+CMakeFiles/lem_in.dir/validation_room.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation_room.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_room.c > CMakeFiles/lem_in.dir/validation_room.c.i
+
+CMakeFiles/lem_in.dir/validation_room.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation_room.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_room.c -o CMakeFiles/lem_in.dir/validation_room.c.s
+
+CMakeFiles/lem_in.dir/validation_room.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/validation_room.c.o.requires
+
+CMakeFiles/lem_in.dir/validation_room.c.o.provides: CMakeFiles/lem_in.dir/validation_room.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_room.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/validation_room.c.o.provides
+
+CMakeFiles/lem_in.dir/validation_room.c.o.provides.build: CMakeFiles/lem_in.dir/validation_room.c.o
+
+
+CMakeFiles/lem_in.dir/validation_links.cpp.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/validation_links.cpp.o: ../validation_links.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lem_in.dir/validation_links.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lem_in.dir/validation_links.cpp.o -c /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp
+
+CMakeFiles/lem_in.dir/validation_links.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lem_in.dir/validation_links.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp > CMakeFiles/lem_in.dir/validation_links.cpp.i
+
+CMakeFiles/lem_in.dir/validation_links.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lem_in.dir/validation_links.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp -o CMakeFiles/lem_in.dir/validation_links.cpp.s
+
+CMakeFiles/lem_in.dir/validation_links.cpp.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
+
+CMakeFiles/lem_in.dir/validation_links.cpp.o.provides: CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_links.cpp.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/validation_links.cpp.o.provides
+
+CMakeFiles/lem_in.dir/validation_links.cpp.o.provides.build: CMakeFiles/lem_in.dir/validation_links.cpp.o
+
+
 # Object files for target lem_in
 lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/main.c.o" \
 "CMakeFiles/lem_in.dir/validation.c.o" \
 "CMakeFiles/lem_in.dir/basic_function.c.o" \
-"CMakeFiles/lem_in.dir/libft/ft_error.c.o"
+"CMakeFiles/lem_in.dir/libft/ft_error.c.o" \
+"CMakeFiles/lem_in.dir/init_room.c.o" \
+"CMakeFiles/lem_in.dir/validation_room.c.o" \
+"CMakeFiles/lem_in.dir/validation_links.cpp.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -167,9 +242,12 @@ lem_in: CMakeFiles/lem_in.dir/main.c.o
 lem_in: CMakeFiles/lem_in.dir/validation.c.o
 lem_in: CMakeFiles/lem_in.dir/basic_function.c.o
 lem_in: CMakeFiles/lem_in.dir/libft/ft_error.c.o
+lem_in: CMakeFiles/lem_in.dir/init_room.c.o
+lem_in: CMakeFiles/lem_in.dir/validation_room.c.o
+lem_in: CMakeFiles/lem_in.dir/validation_links.cpp.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +259,9 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/main.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/basic_function.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/libft/ft_error.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/init_room.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_room.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
 
 .PHONY : CMakeFiles/lem_in.dir/requires
 
@@ -189,6 +270,6 @@ CMakeFiles/lem_in.dir/clean:
 .PHONY : CMakeFiles/lem_in.dir/clean
 
 CMakeFiles/lem_in.dir/depend:
-	cd /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2016/i/ikryvenk/ClionProjects/lem-in /nfs/2016/i/ikryvenk/ClionProjects/lem-in /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug /nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ukrgerri4/CLionProjects/lem-in /home/ukrgerri4/CLionProjects/lem-in /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug /home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lem_in.dir/depend
 

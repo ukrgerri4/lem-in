@@ -1,18 +1,29 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/basic_function.c" "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/basic_function.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/libft/ft_error.c" "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/main.c" "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/validation.c" "/nfs/2016/i/ikryvenk/ClionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/basic_function.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/basic_function.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/init_room.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/init_room.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/main.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/validation.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/validation_room.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation_room.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation_links.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

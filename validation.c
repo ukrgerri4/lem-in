@@ -1,21 +1,18 @@
 #include "lem_in.h"
 
-void    check_line(char *line)
-{
-
-}
-
-void    validation(void)
+void    validation(t_field *field)
 {
     char    *line;
-    int     quantity;
+    int     flag;
 
+    line = NULL;
+    flag = 0;
     get_next_line(0, &line);
     if (!ft_isdigit(line[0]))
-        ft_error("Error\n");
-    quantity = ft_atoi(line);
-    while (get_next_line(0, &line))
-    {
-        check_line(line);
-    }
+        ft_error("Error. There is no number of ants.\n");
+    field->quantity = ft_atoi(line);
+    ft_strdel(&line);
+    if ((flag = validation_rooms(field, &line, &flag)) != 0)
+        ft_error("Error. Start/End room.\n");
+    validation_links(field, line);
 }
