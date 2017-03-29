@@ -20,6 +20,7 @@ typedef struct  s_field
     t_room  *tail;
     int     quantity;
     int     size;
+    char    **matrix;
 }               t_field;
 
 /*

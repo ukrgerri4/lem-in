@@ -102,10 +102,10 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp">
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation_links.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation_room.c">
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation_rooms.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/CMakeLists.txt">

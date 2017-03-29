@@ -177,52 +177,52 @@ CMakeFiles/lem_in.dir/init_room.c.o.provides: CMakeFiles/lem_in.dir/init_room.c.
 CMakeFiles/lem_in.dir/init_room.c.o.provides.build: CMakeFiles/lem_in.dir/init_room.c.o
 
 
-CMakeFiles/lem_in.dir/validation_room.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/validation_room.c.o: ../validation_room.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem_in.dir/validation_room.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation_room.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/validation_room.c
+CMakeFiles/lem_in.dir/validation_rooms.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/validation_rooms.c.o: ../validation_rooms.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lem_in.dir/validation_rooms.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation_rooms.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/validation_rooms.c
 
-CMakeFiles/lem_in.dir/validation_room.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation_room.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_room.c > CMakeFiles/lem_in.dir/validation_room.c.i
+CMakeFiles/lem_in.dir/validation_rooms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation_rooms.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_rooms.c > CMakeFiles/lem_in.dir/validation_rooms.c.i
 
-CMakeFiles/lem_in.dir/validation_room.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation_room.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_room.c -o CMakeFiles/lem_in.dir/validation_room.c.s
+CMakeFiles/lem_in.dir/validation_rooms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation_rooms.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_rooms.c -o CMakeFiles/lem_in.dir/validation_rooms.c.s
 
-CMakeFiles/lem_in.dir/validation_room.c.o.requires:
+CMakeFiles/lem_in.dir/validation_rooms.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/validation_room.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/validation_rooms.c.o.requires
 
-CMakeFiles/lem_in.dir/validation_room.c.o.provides: CMakeFiles/lem_in.dir/validation_room.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_room.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/validation_room.c.o.provides
+CMakeFiles/lem_in.dir/validation_rooms.c.o.provides: CMakeFiles/lem_in.dir/validation_rooms.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_rooms.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/validation_rooms.c.o.provides
 
-CMakeFiles/lem_in.dir/validation_room.c.o.provides.build: CMakeFiles/lem_in.dir/validation_room.c.o
+CMakeFiles/lem_in.dir/validation_rooms.c.o.provides.build: CMakeFiles/lem_in.dir/validation_rooms.c.o
 
 
-CMakeFiles/lem_in.dir/validation_links.cpp.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/validation_links.cpp.o: ../validation_links.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lem_in.dir/validation_links.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lem_in.dir/validation_links.cpp.o -c /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp
+CMakeFiles/lem_in.dir/validation_links.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/validation_links.c.o: ../validation_links.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lem_in.dir/validation_links.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/validation_links.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/validation_links.c
 
-CMakeFiles/lem_in.dir/validation_links.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lem_in.dir/validation_links.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp > CMakeFiles/lem_in.dir/validation_links.cpp.i
+CMakeFiles/lem_in.dir/validation_links.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/validation_links.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/validation_links.c > CMakeFiles/lem_in.dir/validation_links.c.i
 
-CMakeFiles/lem_in.dir/validation_links.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lem_in.dir/validation_links.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_links.cpp -o CMakeFiles/lem_in.dir/validation_links.cpp.s
+CMakeFiles/lem_in.dir/validation_links.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/validation_links.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/validation_links.c -o CMakeFiles/lem_in.dir/validation_links.c.s
 
-CMakeFiles/lem_in.dir/validation_links.cpp.o.requires:
+CMakeFiles/lem_in.dir/validation_links.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
+.PHONY : CMakeFiles/lem_in.dir/validation_links.c.o.requires
 
-CMakeFiles/lem_in.dir/validation_links.cpp.o.provides: CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_links.cpp.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/validation_links.cpp.o.provides
+CMakeFiles/lem_in.dir/validation_links.c.o.provides: CMakeFiles/lem_in.dir/validation_links.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/validation_links.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/validation_links.c.o.provides
 
-CMakeFiles/lem_in.dir/validation_links.cpp.o.provides.build: CMakeFiles/lem_in.dir/validation_links.cpp.o
+CMakeFiles/lem_in.dir/validation_links.c.o.provides.build: CMakeFiles/lem_in.dir/validation_links.c.o
 
 
 # Object files for target lem_in
@@ -232,8 +232,8 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/basic_function.c.o" \
 "CMakeFiles/lem_in.dir/libft/ft_error.c.o" \
 "CMakeFiles/lem_in.dir/init_room.c.o" \
-"CMakeFiles/lem_in.dir/validation_room.c.o" \
-"CMakeFiles/lem_in.dir/validation_links.cpp.o"
+"CMakeFiles/lem_in.dir/validation_rooms.c.o" \
+"CMakeFiles/lem_in.dir/validation_links.c.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -243,11 +243,11 @@ lem_in: CMakeFiles/lem_in.dir/validation.c.o
 lem_in: CMakeFiles/lem_in.dir/basic_function.c.o
 lem_in: CMakeFiles/lem_in.dir/libft/ft_error.c.o
 lem_in: CMakeFiles/lem_in.dir/init_room.c.o
-lem_in: CMakeFiles/lem_in.dir/validation_room.c.o
-lem_in: CMakeFiles/lem_in.dir/validation_links.cpp.o
+lem_in: CMakeFiles/lem_in.dir/validation_rooms.c.o
+lem_in: CMakeFiles/lem_in.dir/validation_links.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -260,8 +260,8 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/basic_function.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/libft/ft_error.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/init_room.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_room.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_links.cpp.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_rooms.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_links.c.o.requires
 
 .PHONY : CMakeFiles/lem_in.dir/requires
 
