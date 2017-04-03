@@ -1,24 +1,21 @@
 #include "lem_in.h"
 
-t_field *init_field(void)
-{
-    t_field *tmp;
-
-    if (!(tmp = (t_field*)malloc(sizeof(t_field))))
-        exit(1);
-    tmp->head = NULL;
-    tmp->tail = NULL;
-    tmp->size = 0;
-    return (tmp);
-}
-
 int main(void)
 {
     t_field *field;
+    int     n;
 
     field = init_field();
     validation(field);
+    n = 0;
+    ft_printf("start = %d, end = %d\n", field->start_id, field->end_id);
+    find_ways(field, field->start_id, n);
+    /*---------------------------------*/
+    int i = 0;
 
+    while (field->way[i] != -1)
+        ft_printf("%d ", field->way[i++]);
+    /*---------------------------------*/
     return (0);
 }
 

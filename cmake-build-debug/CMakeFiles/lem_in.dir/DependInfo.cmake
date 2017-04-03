@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/ukrgerri4/CLionProjects/lem-in/basic_function.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/basic_function.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/find_ways.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/find_ways.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/init_room.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/init_room.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/main.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"

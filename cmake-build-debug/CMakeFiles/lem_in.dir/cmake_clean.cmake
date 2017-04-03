@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/init_room.c.o"
   "CMakeFiles/lem_in.dir/validation_rooms.c.o"
   "CMakeFiles/lem_in.dir/validation_links.c.o"
+  "CMakeFiles/lem_in.dir/find_ways.c.o"
   "lem_in.pdb"
   "lem_in"
 )

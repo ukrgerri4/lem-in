@@ -10,7 +10,11 @@ FT_PRINTF = $(FT_PRINTF_PATH)/libftprintf.a
 
 OBJECTS = main.o \
             basic_function.o \
+            init_room.o \
             validation.o \
+            validation_rooms.o \
+            validation_links.o \
+            find_ways.o \
 
 all: $(NAME)
 

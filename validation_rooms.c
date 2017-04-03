@@ -2,15 +2,17 @@
 
 static int    check_start_end(t_field *field, char *line, int *flag)
 {
-    if (ft_strcmp(line, "##start"))
+    if (ft_strcmp(line, "##start") == 0)
     {
         push_back_room(field, field->size, 1); // initialize start room
+        field->start_id = field->size;
         *flag = 1;
         return (1);
     }
-    else if (ft_strcmp(line, "##end"))
+    else if (ft_strcmp(line, "##end") == 0)
     {
         push_back_room(field, field->size, 2); // initialize end room
+        field->end_id = field->size;
         *flag = 2;
         return (2);
     }
@@ -27,17 +29,7 @@ static int    check_start_end(t_field *field, char *line, int *flag)
     }
 }
 
-static int     find_quantity_elem_in_line(char **line)
-{
-    int i;
-
-    i = 0;
-    while (line[i])
-        i++;
-    return (i);
-}
-
-static int     check_digit(char *str)
+static void     check_digit(char *str)
 {
     int i;
 

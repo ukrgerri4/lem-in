@@ -1,5 +1,21 @@
 #include "lem_in.h"
 
+t_field *init_field(void)
+{
+    t_field *tmp;
+
+    if (!(tmp = (t_field*)malloc(sizeof(t_field))))
+        exit(1);
+    tmp->head = NULL;
+    tmp->tail = NULL;
+    tmp->size = 0;
+    tmp->start_id = -1;
+    tmp->end_id = -1;
+    tmp->matrix = NULL;
+    tmp->way = NULL;
+    return (tmp);
+}
+
 void	push_back_room(t_field *field, int id, int s_e)
 {
     t_room	*tmp;
@@ -16,5 +32,4 @@ void	push_back_room(t_field *field, int id, int s_e)
     field->tail = tmp;
     if (field->head == NULL)
         field->head = tmp;
-    field->size++;
 }
