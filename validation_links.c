@@ -30,7 +30,10 @@ static int      room_id(t_field *field, char *room_name)
     {
         if (ft_strcmp(tmp->name, room_name) == 0)
             return (tmp->id);
-        tmp = tmp->next;
+        if (tmp->next)
+            tmp = tmp->next;
+        else
+            break;
     }
     ft_error("Error. Room does not exist.\n");
     return (0);

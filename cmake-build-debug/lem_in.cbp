@@ -102,6 +102,12 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/main.c">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/trash.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation.c">
 			<Option target="lem_in"/>
 		</Unit>

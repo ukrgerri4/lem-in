@@ -258,6 +258,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/main.c.s
 .PHONY : main.c.s
 
+reserve_ways.o: reserve_ways.c.o
+
+.PHONY : reserve_ways.o
+
+# target to build an object file
+reserve_ways.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/reserve_ways.c.o
+.PHONY : reserve_ways.c.o
+
+reserve_ways.i: reserve_ways.c.i
+
+.PHONY : reserve_ways.i
+
+# target to preprocess a source file
+reserve_ways.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/reserve_ways.c.i
+.PHONY : reserve_ways.c.i
+
+reserve_ways.s: reserve_ways.c.s
+
+.PHONY : reserve_ways.s
+
+# target to generate assembly for a file
+reserve_ways.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/reserve_ways.c.s
+.PHONY : reserve_ways.c.s
+
+trash.o: trash.c.o
+
+.PHONY : trash.o
+
+# target to build an object file
+trash.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.o
+.PHONY : trash.c.o
+
+trash.i: trash.c.i
+
+.PHONY : trash.i
+
+# target to preprocess a source file
+trash.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.i
+.PHONY : trash.c.i
+
+trash.s: trash.c.s
+
+.PHONY : trash.s
+
+# target to generate assembly for a file
+trash.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.s
+.PHONY : trash.c.s
+
 validation.o: validation.c.o
 
 .PHONY : validation.o
@@ -363,6 +417,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... reserve_ways.o"
+	@echo "... reserve_ways.i"
+	@echo "... reserve_ways.s"
+	@echo "... trash.o"
+	@echo "... trash.i"
+	@echo "... trash.s"
 	@echo "... validation.o"
 	@echo "... validation.i"
 	@echo "... validation.s"

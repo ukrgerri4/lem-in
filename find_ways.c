@@ -1,56 +1,63 @@
 #include "lem_in.h"
 
-static void write_way(t_field *field)
+static void comment_visited_rooms(t_field *field, int id, char a, char b)
 {
     int i;
 
     i = 0;
     while (i < field->size)
-        field->way[i++] = -1;
+    {
+        if (field->matrix[id][i] == a)
+        {
+            field->matrix[id][i] = b;
+            field->matrix[i][id] = b;
+        }
+        i++;
+    }
 }
 
-static int find_id(t_field *field, int id)
+void    change_matrix(t_field *field)
 {
-    int y;
+    int i;
 
-    y = 0;
-    while (y < field->size)
+    i = 0;
+    while (i < field->size)
     {
-        if (field->matrix[y][id] && field->matrix[y][id] != -1)
+        if ((field->matrix[field->start_id][i] == -1) && i != field->cur_way[0])
         {
-            field->matrix[y][id] = -1;
-            field->matrix[id][y] = -1;
-            return (y);
+
         }
-        y++;
     }
-    return (-1);
 }
 
 int    find_ways(t_field *field, int id, int n)
 {
-    int new_id;
+    int i;
 
-    new_id = -1;
     if (id != field->end_id)
     {
-        ft_printf(".0 %d\n", id);
-        while ((new_id = find_id(field, id)) != -1)
+        i = 0;
+        while (i < field->size)
         {
-            ft_printf(".1 %d\n", id);
-            if (find_ways(field, new_id, (n + 1) != -1))
+            if (field->matrix[id][i] == 1)
             {
-                field->way[n] = id;
-                return (n);
+                comment_visited_rooms(field, id, 1, -1);
+                if (find_ways(field, i, (n + 1))) // if return success write i to field->ways and return success
+                {
+                    field->cur_way[n] = id;
+                    return (1);
+                }
+                else
+                    comment_visited_rooms(field, i, -1, 1);
             }
+            i++;
         }
     }
     else
     {
-        field->way = (int*)malloc(sizeof(int) * field->size);
-        write_way(field);
-        field->way[n] = id;
-        return (n);
+        field->cur_way[n] = id;
+        return (1);
+        //write ways, make one more line for next ways and return success
     }
-    return (-1); // need to return somthing useful
+    return (0);
 }

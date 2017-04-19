@@ -15,6 +15,7 @@ OBJECTS = main.o \
             validation_rooms.o \
             validation_links.o \
             find_ways.o \
+            reserve_ways.o \
 
 all: $(NAME)
 

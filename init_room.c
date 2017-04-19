@@ -12,19 +12,24 @@ t_field *init_field(void)
     tmp->start_id = -1;
     tmp->end_id = -1;
     tmp->matrix = NULL;
-    tmp->way = NULL;
+    tmp->ways = NULL;
     return (tmp);
 }
 
-void	push_back_room(t_field *field, int id, int s_e)
+void	push_back_room(t_field *field)
 {
     t_room	*tmp;
 
     if (!(tmp = (t_room*)malloc(sizeof(t_room))))
         exit(1);
     tmp->name = NULL;
-    tmp->id = id;
-    tmp->s_e = 0;
+    tmp->id = field->size;
+    if (field->size == field->start_id)
+        tmp->comment = field->start_id;
+    else if  (field->size == field->end_id)
+        tmp->comment = field->end_id;
+    else
+        tmp->comment = 0;
     tmp->x = 0;
     tmp->y = 0;
     if (field->tail)
@@ -32,4 +37,5 @@ void	push_back_room(t_field *field, int id, int s_e)
     field->tail = tmp;
     if (field->head == NULL)
         field->head = tmp;
+    tmp->next = NULL;
 }

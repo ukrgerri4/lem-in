@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ukrgerri4/CLionProjects/lem-in/init_room.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/init_room.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/main.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/reserve_ways.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/trash.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/trash.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/validation.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/validation_links.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation_links.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/validation_rooms.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation_rooms.c.o"

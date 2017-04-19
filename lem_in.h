@@ -8,7 +8,7 @@ typedef struct  s_room
 {
     char *name;
     int id;
-    char s_e;
+    int comment;
     int x;
     int y;
     struct s_room *next;
@@ -23,30 +23,35 @@ typedef struct  s_field
     int     start_id;
     int     end_id;
     char    **matrix;
-    int     *way;
+    int     ways_quantity;
+    int     *cur_way;
+    int     **ways;
+
 }               t_field;
 
 /*
  * basic function
  */
 int     find_quantity_elem_in_line(char **line);
+void ft_fill_int(int *arr, int size, int n);
 
 /*
  * t_room/t_field function
  */
 t_field *init_field(void);
-void	push_back_room(t_field *field, int id, int s_e);
+void	push_back_room(t_field *field);
 
 /*
  * validation function
  */
 void    validation(t_field *field);
-int     validation_rooms(t_field *field, char **line, int *flag);
+int     validation_rooms(t_field *field, char **line);
 void    validation_links(t_field *field, char *line);
 
 /*
  * find_way function
  */
-int    find_ways(t_field *field, int id, int n);
+void    reserve_ways(t_field *field);
+int     find_ways(t_field *field, int id, int n);
 
 #endif
