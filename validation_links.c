@@ -73,7 +73,7 @@ void            validation_links(t_field *field, char *line)
     init_matrix(field); // create matrix
     write_link(field, ft_strsplit(line, '-'));
     ft_strdel(&line);
-    while (get_next_line(0, &line))
+    while (get_next_line(field->fd, &line))
     {
         write_link(field, ft_strsplit(line, '-'));
         ft_strdel(&line);

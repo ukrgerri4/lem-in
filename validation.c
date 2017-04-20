@@ -5,7 +5,8 @@ void    validation(t_field *field)
     char    *line;
 
     line = NULL;
-    get_next_line(0, &line);
+    field->fd = open("../1.txt",O_RDONLY);
+    get_next_line(field->fd, &line);
     if (!ft_isdigit(line[0]))
         ft_error("Error. There is no number of ants.\n");
     field->ant_quantity = ft_atoi(line);

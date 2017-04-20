@@ -4,6 +4,8 @@
 #include "ft_printf/ft_printf.h"
 #include "libft/libft.h"
 
+#include <stdio.h> // DELETE
+
 typedef struct  s_room
 {
     char *name;
@@ -14,18 +16,36 @@ typedef struct  s_room
     struct s_room *next;
 }               t_room;
 
+typedef struct  s_ways
+{
+    int             *way;
+    int             size;
+    struct s_ways   *next;
+}               t_ways;
+
+typedef struct  s_path
+{
+    int             *way;
+    int             size;
+    struct s_path   *next;
+}               t_path;
+
 typedef struct  s_field
 {
     t_room  *head;
     t_room  *tail;
+    int     fd;//DELETE
     int     ant_quantity;
     int     size;
     int     start_id;
     int     end_id;
     char    **matrix;
     int     ways_quantity;
-    int     *cur_way;
-    int     **ways;
+    int     *visited;
+    t_ways  *way_head;
+    t_ways  *way_tail;
+    t_path  *path_head;
+    t_path  *path_tail;
 
 }               t_field;
 
@@ -40,6 +60,8 @@ void ft_fill_int(int *arr, int size, int n);
  */
 t_field *init_field(void);
 void	push_back_room(t_field *field);
+void push_back_ways(t_field *field, int size);
+void	push_back_path(t_field *field, int size);
 
 /*
  * validation function
