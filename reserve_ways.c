@@ -13,10 +13,10 @@ void    reserve_ways(t_field *field)
     i = 0;
     while (i < field->size)
         if (field->matrix[field->end_id][i++])
-            field->ways_quantity++;
-    if (field->ways_quantity > count)
-        field->ways_quantity = count;
-    if (field->ways_quantity == 0)
+            field->max_path_in_way++;
+    if (field->max_path_in_way > count)
+        field->max_path_in_way = count;
+    if (field->max_path_in_way == 0)
         ft_error("Error. There are no ways!\n");
 }
 

@@ -7,11 +7,29 @@ CMakeFiles/lem_in.dir/basic_function.c.o: ../lem_in.h
 CMakeFiles/lem_in.dir/basic_function.c.o: ../libft/get_next_line.h
 CMakeFiles/lem_in.dir/basic_function.c.o: ../libft/libft.h
 
-CMakeFiles/lem_in.dir/find_ways.c.o: ../find_ways.c
-CMakeFiles/lem_in.dir/find_ways.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/lem_in.dir/find_ways.c.o: ../lem_in.h
-CMakeFiles/lem_in.dir/find_ways.c.o: ../libft/get_next_line.h
-CMakeFiles/lem_in.dir/find_ways.c.o: ../libft/libft.h
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../find_ways_0.c
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../libft/libft.h
+
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../find_ways_1.c
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../libft/libft.h
+
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../find_ways_2.c
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../libft/libft.h
+
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../find_ways_3.c
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../libft/libft.h
 
 CMakeFiles/lem_in.dir/init_room.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/lem_in.dir/init_room.c.o: ../init_room.c
@@ -34,12 +52,6 @@ CMakeFiles/lem_in.dir/reserve_ways.c.o: ../lem_in.h
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../libft/get_next_line.h
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../libft/libft.h
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../reserve_ways.c
-
-CMakeFiles/lem_in.dir/trash.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/lem_in.dir/trash.c.o: ../lem_in.h
-CMakeFiles/lem_in.dir/trash.c.o: ../libft/get_next_line.h
-CMakeFiles/lem_in.dir/trash.c.o: ../libft/libft.h
-CMakeFiles/lem_in.dir/trash.c.o: ../trash.c
 
 CMakeFiles/lem_in.dir/validation.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/lem_in.dir/validation.c.o: ../lem_in.h

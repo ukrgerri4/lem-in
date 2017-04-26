@@ -225,57 +225,33 @@ CMakeFiles/lem_in.dir/validation_links.c.o.provides: CMakeFiles/lem_in.dir/valid
 CMakeFiles/lem_in.dir/validation_links.c.o.provides.build: CMakeFiles/lem_in.dir/validation_links.c.o
 
 
-CMakeFiles/lem_in.dir/find_ways.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/find_ways.c.o: ../find_ways.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lem_in.dir/find_ways.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/find_ways.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/find_ways.c
+CMakeFiles/lem_in.dir/find_ways_0.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/find_ways_0.c.o: ../find_ways_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lem_in.dir/find_ways_0.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/find_ways_0.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/find_ways_0.c
 
-CMakeFiles/lem_in.dir/find_ways.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/find_ways.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/find_ways.c > CMakeFiles/lem_in.dir/find_ways.c.i
+CMakeFiles/lem_in.dir/find_ways_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/find_ways_0.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/find_ways_0.c > CMakeFiles/lem_in.dir/find_ways_0.c.i
 
-CMakeFiles/lem_in.dir/find_ways.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/find_ways.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/find_ways.c -o CMakeFiles/lem_in.dir/find_ways.c.s
+CMakeFiles/lem_in.dir/find_ways_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/find_ways_0.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/find_ways_0.c -o CMakeFiles/lem_in.dir/find_ways_0.c.s
 
-CMakeFiles/lem_in.dir/find_ways.c.o.requires:
+CMakeFiles/lem_in.dir/find_ways_0.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/find_ways.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/find_ways_0.c.o.requires
 
-CMakeFiles/lem_in.dir/find_ways.c.o.provides: CMakeFiles/lem_in.dir/find_ways.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/find_ways.c.o.provides
+CMakeFiles/lem_in.dir/find_ways_0.c.o.provides: CMakeFiles/lem_in.dir/find_ways_0.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_0.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/find_ways_0.c.o.provides
 
-CMakeFiles/lem_in.dir/find_ways.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways.c.o
-
-
-CMakeFiles/lem_in.dir/trash.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/trash.c.o: ../trash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lem_in.dir/trash.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/trash.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/trash.c
-
-CMakeFiles/lem_in.dir/trash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/trash.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/trash.c > CMakeFiles/lem_in.dir/trash.c.i
-
-CMakeFiles/lem_in.dir/trash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/trash.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/trash.c -o CMakeFiles/lem_in.dir/trash.c.s
-
-CMakeFiles/lem_in.dir/trash.c.o.requires:
-
-.PHONY : CMakeFiles/lem_in.dir/trash.c.o.requires
-
-CMakeFiles/lem_in.dir/trash.c.o.provides: CMakeFiles/lem_in.dir/trash.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/trash.c.o.provides
-
-CMakeFiles/lem_in.dir/trash.c.o.provides.build: CMakeFiles/lem_in.dir/trash.c.o
+CMakeFiles/lem_in.dir/find_ways_0.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways_0.c.o
 
 
 CMakeFiles/lem_in.dir/reserve_ways.c.o: CMakeFiles/lem_in.dir/flags.make
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../reserve_ways.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lem_in.dir/reserve_ways.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lem_in.dir/reserve_ways.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/reserve_ways.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c
 
 CMakeFiles/lem_in.dir/reserve_ways.c.i: cmake_force
@@ -297,6 +273,78 @@ CMakeFiles/lem_in.dir/reserve_ways.c.o.provides: CMakeFiles/lem_in.dir/reserve_w
 CMakeFiles/lem_in.dir/reserve_ways.c.o.provides.build: CMakeFiles/lem_in.dir/reserve_ways.c.o
 
 
+CMakeFiles/lem_in.dir/find_ways_1.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/find_ways_1.c.o: ../find_ways_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lem_in.dir/find_ways_1.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/find_ways_1.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/find_ways_1.c
+
+CMakeFiles/lem_in.dir/find_ways_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/find_ways_1.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/find_ways_1.c > CMakeFiles/lem_in.dir/find_ways_1.c.i
+
+CMakeFiles/lem_in.dir/find_ways_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/find_ways_1.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/find_ways_1.c -o CMakeFiles/lem_in.dir/find_ways_1.c.s
+
+CMakeFiles/lem_in.dir/find_ways_1.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/find_ways_1.c.o.requires
+
+CMakeFiles/lem_in.dir/find_ways_1.c.o.provides: CMakeFiles/lem_in.dir/find_ways_1.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_1.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/find_ways_1.c.o.provides
+
+CMakeFiles/lem_in.dir/find_ways_1.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways_1.c.o
+
+
+CMakeFiles/lem_in.dir/find_ways_2.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/find_ways_2.c.o: ../find_ways_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lem_in.dir/find_ways_2.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/find_ways_2.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/find_ways_2.c
+
+CMakeFiles/lem_in.dir/find_ways_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/find_ways_2.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/find_ways_2.c > CMakeFiles/lem_in.dir/find_ways_2.c.i
+
+CMakeFiles/lem_in.dir/find_ways_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/find_ways_2.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/find_ways_2.c -o CMakeFiles/lem_in.dir/find_ways_2.c.s
+
+CMakeFiles/lem_in.dir/find_ways_2.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/find_ways_2.c.o.requires
+
+CMakeFiles/lem_in.dir/find_ways_2.c.o.provides: CMakeFiles/lem_in.dir/find_ways_2.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_2.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/find_ways_2.c.o.provides
+
+CMakeFiles/lem_in.dir/find_ways_2.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways_2.c.o
+
+
+CMakeFiles/lem_in.dir/find_ways_3.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/find_ways_3.c.o: ../find_ways_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lem_in.dir/find_ways_3.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/find_ways_3.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c
+
+CMakeFiles/lem_in.dir/find_ways_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/find_ways_3.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c > CMakeFiles/lem_in.dir/find_ways_3.c.i
+
+CMakeFiles/lem_in.dir/find_ways_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/find_ways_3.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c -o CMakeFiles/lem_in.dir/find_ways_3.c.s
+
+CMakeFiles/lem_in.dir/find_ways_3.c.o.requires:
+
+.PHONY : CMakeFiles/lem_in.dir/find_ways_3.c.o.requires
+
+CMakeFiles/lem_in.dir/find_ways_3.c.o.provides: CMakeFiles/lem_in.dir/find_ways_3.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_3.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/find_ways_3.c.o.provides
+
+CMakeFiles/lem_in.dir/find_ways_3.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways_3.c.o
+
+
 # Object files for target lem_in
 lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/main.c.o" \
@@ -306,9 +354,11 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/init_room.c.o" \
 "CMakeFiles/lem_in.dir/validation_rooms.c.o" \
 "CMakeFiles/lem_in.dir/validation_links.c.o" \
-"CMakeFiles/lem_in.dir/find_ways.c.o" \
-"CMakeFiles/lem_in.dir/trash.c.o" \
-"CMakeFiles/lem_in.dir/reserve_ways.c.o"
+"CMakeFiles/lem_in.dir/find_ways_0.c.o" \
+"CMakeFiles/lem_in.dir/reserve_ways.c.o" \
+"CMakeFiles/lem_in.dir/find_ways_1.c.o" \
+"CMakeFiles/lem_in.dir/find_ways_2.c.o" \
+"CMakeFiles/lem_in.dir/find_ways_3.c.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -320,12 +370,14 @@ lem_in: CMakeFiles/lem_in.dir/libft/ft_error.c.o
 lem_in: CMakeFiles/lem_in.dir/init_room.c.o
 lem_in: CMakeFiles/lem_in.dir/validation_rooms.c.o
 lem_in: CMakeFiles/lem_in.dir/validation_links.c.o
-lem_in: CMakeFiles/lem_in.dir/find_ways.c.o
-lem_in: CMakeFiles/lem_in.dir/trash.c.o
+lem_in: CMakeFiles/lem_in.dir/find_ways_0.c.o
 lem_in: CMakeFiles/lem_in.dir/reserve_ways.c.o
+lem_in: CMakeFiles/lem_in.dir/find_ways_1.c.o
+lem_in: CMakeFiles/lem_in.dir/find_ways_2.c.o
+lem_in: CMakeFiles/lem_in.dir/find_ways_3.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -340,9 +392,11 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/libft/ft_error.c.o.require
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/init_room.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_rooms.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/validation_links.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/trash.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_0.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/reserve_ways.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_1.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_2.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_3.c.o.requires
 
 .PHONY : CMakeFiles/lem_in.dir/requires
 

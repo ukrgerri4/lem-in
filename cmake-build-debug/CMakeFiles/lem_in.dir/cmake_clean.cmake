@@ -6,9 +6,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/init_room.c.o"
   "CMakeFiles/lem_in.dir/validation_rooms.c.o"
   "CMakeFiles/lem_in.dir/validation_links.c.o"
-  "CMakeFiles/lem_in.dir/find_ways.c.o"
-  "CMakeFiles/lem_in.dir/trash.c.o"
+  "CMakeFiles/lem_in.dir/find_ways_0.c.o"
   "CMakeFiles/lem_in.dir/reserve_ways.c.o"
+  "CMakeFiles/lem_in.dir/find_ways_1.c.o"
+  "CMakeFiles/lem_in.dir/find_ways_2.c.o"
+  "CMakeFiles/lem_in.dir/find_ways_3.c.o"
   "lem_in.pdb"
   "lem_in"
 )

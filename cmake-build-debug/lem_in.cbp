@@ -87,7 +87,16 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/basic_function.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways.c">
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_0.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_1.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/init_room.c">
@@ -103,9 +112,6 @@
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c">
-			<Option target="lem_in"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/trash.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/validation.c">

@@ -12,12 +12,19 @@ t_field *init_field(void)
     tmp->size = 0;
     tmp->start_id = -1;
     tmp->end_id = -1;
+    tmp->shortest_set_id = -1;
+    tmp->shortest_len = 0;
+    tmp->max_path_in_way = 0;
     tmp->matrix = NULL;
     tmp->visited = NULL;
+    tmp->ways_quantity = 0;
     tmp->way_head = NULL;
     tmp->way_tail = NULL;
-    tmp->path_head = NULL;
-    tmp->path_tail = NULL;
+    tmp->arr_ways = NULL;
+    tmp->size_ways = NULL;
+    tmp->set_ways = NULL;
+//    tmp->path_head = NULL;
+//    tmp->path_tail = NULL;
     return (tmp);
 }
 
@@ -53,6 +60,7 @@ void push_back_ways(t_field *field, int size)
         exit(1);
     if (!(tmp->way = (int*)malloc(sizeof(int) * field->size)))
         exit(1);
+    tmp->id = field->ways_quantity++;
     ft_fill_int(tmp->way, field->size, -1);
     tmp->size = size;
     if (field->way_tail)
@@ -63,6 +71,7 @@ void push_back_ways(t_field *field, int size)
     tmp->next = NULL;
 
 }
+/*
 
 void	push_back_path(t_field *field, int size)
 {
@@ -79,4 +88,4 @@ void	push_back_path(t_field *field, int size)
     if (field->path_head == NULL)
         field->path_head = tmp;
     tmp->next = NULL;
-}
+}*/

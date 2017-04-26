@@ -13,7 +13,7 @@ static int check_visited(t_field *field, int i)
     return (1);
 }
 
-void    copy_way(t_field *field, int size)
+static void    copy_way(t_field *field, int size)
 {
     int i;
 
@@ -43,31 +43,4 @@ int    find_ways(t_field *field, int id, int n)
         copy_way(field, n);
     field->visited[n] = -1;
     return (0);
-}
-
-
-void    find_shortest_ways(t_field *field)
-{
-    t_ways  *tmp;
-    int     *buf;
-    int     size;
-
-    tmp = field->way_head;
-    size = 0;
-    if (!field->way_head)
-        ft_error("Error. No ways was found!");
-    if (!(buf = (int*)malloc(sizeof(int) * field->size)))
-        exit(1);
-    ft_fill_int(buf, field->size, -1);
-    while (tmp)
-    {
-        if (size == 0 || tmp->size < size)
-            size = tmp->size;
-        if (tmp->next)
-            tmp = tmp->next;
-        else
-            break;
-    }
-    //find shortest way
-    //while field->ways_quantity find shortest ways witch has no double with another
 }

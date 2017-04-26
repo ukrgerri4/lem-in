@@ -18,17 +18,20 @@ typedef struct  s_room
 
 typedef struct  s_ways
 {
+    int             id;
     int             *way;
     int             size;
     struct s_ways   *next;
 }               t_ways;
 
+/*
 typedef struct  s_path
 {
     int             *way;
     int             size;
     struct s_path   *next;
 }               t_path;
+*/
 
 typedef struct  s_field
 {
@@ -39,13 +42,19 @@ typedef struct  s_field
     int     size;
     int     start_id;
     int     end_id;
+    int     shortest_set_id;
+    int     shortest_len;
     char    **matrix;
-    int     ways_quantity;
+    int     max_path_in_way;
     int     *visited;
+    int     ways_quantity;
     t_ways  *way_head;
     t_ways  *way_tail;
-    t_path  *path_head;
-    t_path  *path_tail;
+    int     **arr_ways;
+    int     *size_ways;
+    int     **set_ways;
+    //t_path  *path_head;
+    //t_path  *path_tail;
 
 }               t_field;
 
@@ -75,5 +84,10 @@ void    validation_links(t_field *field, char *line);
  */
 void    reserve_ways(t_field *field);
 int     find_ways(t_field *field, int id, int n);
+void    write_ways_in_array(t_field *field);
+void    initialize_sets(t_field *field);
+void    fill_sets(t_field *field);
+void    sort_set_of_ways(t_field *field);
+void    find_shortest_way(t_field *field);
 
 #endif

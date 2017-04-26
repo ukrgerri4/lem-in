@@ -1,0 +1,46 @@
+#include "lem_in.h"
+
+static int    find_len_way(t_field *field, int *set)
+{
+    int lemings;
+    int len;
+    int i;
+
+    len = 0;
+    lemings = field->ant_quantity;
+    while (lemings)
+    {
+        lemings--;
+        i = 1;
+        while (set[i] != -1)
+        {
+            if ((lemings - field->size_ways[set[i]]) >= 0)
+            {
+                lemings--;
+                i++;
+            }
+            else
+                break;
+        }
+        len++;
+    }
+    return (len + set[i - 1]);
+}
+
+void    find_shortest_way(t_field *field)
+{
+    int i;
+    int way_lenght;
+
+    i = 0;
+    while (i < field->ways_quantity)
+    {
+        way_lenght = find_len_way(field, field->set_ways[i]);
+        if (field->shortest_len == 0 || way_lenght < field->shortest_len)
+        {
+            field->shortest_len = way_lenght;
+            field->shortest_set_id = i;
+        }
+        i++;
+    }
+}

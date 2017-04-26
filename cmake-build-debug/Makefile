@@ -150,32 +150,113 @@ basic_function.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/basic_function.c.s
 .PHONY : basic_function.c.s
 
-find_ways.o: find_ways.c.o
+find_ways_0.o: find_ways_0.c.o
 
-.PHONY : find_ways.o
+.PHONY : find_ways_0.o
 
 # target to build an object file
-find_ways.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways.c.o
-.PHONY : find_ways.c.o
+find_ways_0.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_0.c.o
+.PHONY : find_ways_0.c.o
 
-find_ways.i: find_ways.c.i
+find_ways_0.i: find_ways_0.c.i
 
-.PHONY : find_ways.i
+.PHONY : find_ways_0.i
 
 # target to preprocess a source file
-find_ways.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways.c.i
-.PHONY : find_ways.c.i
+find_ways_0.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_0.c.i
+.PHONY : find_ways_0.c.i
 
-find_ways.s: find_ways.c.s
+find_ways_0.s: find_ways_0.c.s
 
-.PHONY : find_ways.s
+.PHONY : find_ways_0.s
 
 # target to generate assembly for a file
-find_ways.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways.c.s
-.PHONY : find_ways.c.s
+find_ways_0.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_0.c.s
+.PHONY : find_ways_0.c.s
+
+find_ways_1.o: find_ways_1.c.o
+
+.PHONY : find_ways_1.o
+
+# target to build an object file
+find_ways_1.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_1.c.o
+.PHONY : find_ways_1.c.o
+
+find_ways_1.i: find_ways_1.c.i
+
+.PHONY : find_ways_1.i
+
+# target to preprocess a source file
+find_ways_1.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_1.c.i
+.PHONY : find_ways_1.c.i
+
+find_ways_1.s: find_ways_1.c.s
+
+.PHONY : find_ways_1.s
+
+# target to generate assembly for a file
+find_ways_1.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_1.c.s
+.PHONY : find_ways_1.c.s
+
+find_ways_2.o: find_ways_2.c.o
+
+.PHONY : find_ways_2.o
+
+# target to build an object file
+find_ways_2.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_2.c.o
+.PHONY : find_ways_2.c.o
+
+find_ways_2.i: find_ways_2.c.i
+
+.PHONY : find_ways_2.i
+
+# target to preprocess a source file
+find_ways_2.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_2.c.i
+.PHONY : find_ways_2.c.i
+
+find_ways_2.s: find_ways_2.c.s
+
+.PHONY : find_ways_2.s
+
+# target to generate assembly for a file
+find_ways_2.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_2.c.s
+.PHONY : find_ways_2.c.s
+
+find_ways_3.o: find_ways_3.c.o
+
+.PHONY : find_ways_3.o
+
+# target to build an object file
+find_ways_3.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_3.c.o
+.PHONY : find_ways_3.c.o
+
+find_ways_3.i: find_ways_3.c.i
+
+.PHONY : find_ways_3.i
+
+# target to preprocess a source file
+find_ways_3.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_3.c.i
+.PHONY : find_ways_3.c.i
+
+find_ways_3.s: find_ways_3.c.s
+
+.PHONY : find_ways_3.s
+
+# target to generate assembly for a file
+find_ways_3.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_3.c.s
+.PHONY : find_ways_3.c.s
 
 init_room.o: init_room.c.o
 
@@ -285,33 +366,6 @@ reserve_ways.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/reserve_ways.c.s
 .PHONY : reserve_ways.c.s
 
-trash.o: trash.c.o
-
-.PHONY : trash.o
-
-# target to build an object file
-trash.c.o:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.o
-.PHONY : trash.c.o
-
-trash.i: trash.c.i
-
-.PHONY : trash.i
-
-# target to preprocess a source file
-trash.c.i:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.i
-.PHONY : trash.c.i
-
-trash.s: trash.c.s
-
-.PHONY : trash.s
-
-# target to generate assembly for a file
-trash.c.s:
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/trash.c.s
-.PHONY : trash.c.s
-
 validation.o: validation.c.o
 
 .PHONY : validation.o
@@ -405,9 +459,18 @@ help:
 	@echo "... basic_function.o"
 	@echo "... basic_function.i"
 	@echo "... basic_function.s"
-	@echo "... find_ways.o"
-	@echo "... find_ways.i"
-	@echo "... find_ways.s"
+	@echo "... find_ways_0.o"
+	@echo "... find_ways_0.i"
+	@echo "... find_ways_0.s"
+	@echo "... find_ways_1.o"
+	@echo "... find_ways_1.i"
+	@echo "... find_ways_1.s"
+	@echo "... find_ways_2.o"
+	@echo "... find_ways_2.i"
+	@echo "... find_ways_2.s"
+	@echo "... find_ways_3.o"
+	@echo "... find_ways_3.i"
+	@echo "... find_ways_3.s"
 	@echo "... init_room.o"
 	@echo "... init_room.i"
 	@echo "... init_room.s"
@@ -420,9 +483,6 @@ help:
 	@echo "... reserve_ways.o"
 	@echo "... reserve_ways.i"
 	@echo "... reserve_ways.s"
-	@echo "... trash.o"
-	@echo "... trash.i"
-	@echo "... trash.s"
 	@echo "... validation.o"
 	@echo "... validation.i"
 	@echo "... validation.s"
