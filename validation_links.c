@@ -25,7 +25,7 @@ static int      room_id(t_field *field, char *room_name)
 {
     t_room *tmp;
 
-    tmp = field->head;
+    tmp = field->room_head;
     while (tmp)
     {
         if (ft_strcmp(tmp->name, room_name) == 0)
@@ -43,6 +43,7 @@ static void     write_link(t_field *field, char **line)
 {
     int x;
     int y;
+    int i;
 
     if ((find_quantity_elem_in_line(line)) != 2)
         ft_error("Error. Bad links initalization. Too many rooms\n");
@@ -50,6 +51,7 @@ static void     write_link(t_field *field, char **line)
     x = room_id(field, line[1]);
     field->matrix[y][x] = 1;
     field->matrix[x][y] = 1;
+    free_strsplit(&line, 2);
 }
 
 static void     init_matrix(t_field *field)
@@ -78,5 +80,6 @@ void            validation_links(t_field *field, char *line)
         write_link(field, ft_strsplit(line, '-'));
         ft_strdel(&line);
     }
+    ft_strdel(&line);
     ft_put(field->matrix, field->size); // delete
 }

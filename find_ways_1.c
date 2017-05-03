@@ -10,6 +10,7 @@ static void    copy_way(int *dest, int *src, int size)
         dest[i] = src[i];
         i++;
     }
+    dest[i] = -1;
 }
 
 void    write_ways_in_array(t_field *field)
@@ -25,7 +26,7 @@ void    write_ways_in_array(t_field *field)
     tmp = field->way_head;
     while (i < field->ways_quantity)
     {
-        field->arr_ways[i] = (int*)malloc(sizeof(int) * (tmp->size + 1));
+        field->arr_ways[i] = (int*)malloc(sizeof(int) * (tmp->size + 2));
         copy_way(field->arr_ways[i], tmp->way, tmp->size);
         field->size_ways[i] = tmp->size;
         i++;
@@ -48,7 +49,6 @@ void    initialize_sets(t_field *field)
     }
 
 }
-
 
 static int compare(t_field *field, int *set, int *x)
 {

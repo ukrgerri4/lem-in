@@ -34,8 +34,8 @@ typedef struct  s_path
 
 typedef struct  s_field
 {
-    t_room  *head;
-    t_room  *tail;
+    t_room  *room_head;
+    t_room  *room_tail;
     int     fd;//DELETE
     int     ant_quantity;
     int     size;
@@ -63,6 +63,8 @@ typedef struct  s_field
  */
 int     find_quantity_elem_in_line(char **line);
 void    ft_fill_int(int *arr, int size, int n);
+char    *proom(t_field *field, int id);
+void    free_strsplit(char ***line, int size);
 
 /*
  * t_room/t_field function
@@ -92,8 +94,8 @@ void    find_shortest_way(t_field *field);
 void    stw(t_field *field);
 
 /*
- * help function
+ * free function
  */
-char *proom(t_field *field, int id);
+void    free_project_memory(t_field *field);
 
 #endif

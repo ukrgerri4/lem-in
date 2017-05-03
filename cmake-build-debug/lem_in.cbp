@@ -99,10 +99,7 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c">
 			<Option target="lem_in"/>
 		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c">
-			<Option target="lem_in"/>
-		</Unit>
-		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c">
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/free_all.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/init_room.c">
@@ -115,6 +112,9 @@
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/main.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/move_ants.c">
 			<Option target="lem_in"/>
 		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c">

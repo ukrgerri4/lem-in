@@ -345,52 +345,52 @@ CMakeFiles/lem_in.dir/find_ways_3.c.o.provides: CMakeFiles/lem_in.dir/find_ways_
 CMakeFiles/lem_in.dir/find_ways_3.c.o.provides.build: CMakeFiles/lem_in.dir/find_ways_3.c.o
 
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../go_my_little_army.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lem_in.dir/go_my_little_army.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/go_my_little_army.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c
+CMakeFiles/lem_in.dir/move_ants.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/move_ants.c.o: ../move_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lem_in.dir/move_ants.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/move_ants.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/move_ants.c
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/go_my_little_army.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c > CMakeFiles/lem_in.dir/go_my_little_army.c.i
+CMakeFiles/lem_in.dir/move_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/move_ants.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/move_ants.c > CMakeFiles/lem_in.dir/move_ants.c.i
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/go_my_little_army.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c -o CMakeFiles/lem_in.dir/go_my_little_army.c.s
+CMakeFiles/lem_in.dir/move_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/move_ants.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/move_ants.c -o CMakeFiles/lem_in.dir/move_ants.c.s
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.o.requires:
+CMakeFiles/lem_in.dir/move_ants.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/go_my_little_army.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/move_ants.c.o.requires
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.o.provides: CMakeFiles/lem_in.dir/go_my_little_army.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_my_little_army.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/go_my_little_army.c.o.provides
+CMakeFiles/lem_in.dir/move_ants.c.o.provides: CMakeFiles/lem_in.dir/move_ants.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/move_ants.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/move_ants.c.o.provides
 
-CMakeFiles/lem_in.dir/go_my_little_army.c.o.provides.build: CMakeFiles/lem_in.dir/go_my_little_army.c.o
+CMakeFiles/lem_in.dir/move_ants.c.o.provides.build: CMakeFiles/lem_in.dir/move_ants.c.o
 
 
-CMakeFiles/lem_in.dir/go_mla_2.c.o: CMakeFiles/lem_in.dir/flags.make
-CMakeFiles/lem_in.dir/go_mla_2.c.o: ../go_mla_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lem_in.dir/go_mla_2.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/go_mla_2.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c
+CMakeFiles/lem_in.dir/free_all.c.o: CMakeFiles/lem_in.dir/flags.make
+CMakeFiles/lem_in.dir/free_all.c.o: ../free_all.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lem_in.dir/free_all.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lem_in.dir/free_all.c.o   -c /home/ukrgerri4/CLionProjects/lem-in/free_all.c
 
-CMakeFiles/lem_in.dir/go_mla_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/go_mla_2.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c > CMakeFiles/lem_in.dir/go_mla_2.c.i
+CMakeFiles/lem_in.dir/free_all.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lem_in.dir/free_all.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ukrgerri4/CLionProjects/lem-in/free_all.c > CMakeFiles/lem_in.dir/free_all.c.i
 
-CMakeFiles/lem_in.dir/go_mla_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/go_mla_2.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c -o CMakeFiles/lem_in.dir/go_mla_2.c.s
+CMakeFiles/lem_in.dir/free_all.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lem_in.dir/free_all.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ukrgerri4/CLionProjects/lem-in/free_all.c -o CMakeFiles/lem_in.dir/free_all.c.s
 
-CMakeFiles/lem_in.dir/go_mla_2.c.o.requires:
+CMakeFiles/lem_in.dir/free_all.c.o.requires:
 
-.PHONY : CMakeFiles/lem_in.dir/go_mla_2.c.o.requires
+.PHONY : CMakeFiles/lem_in.dir/free_all.c.o.requires
 
-CMakeFiles/lem_in.dir/go_mla_2.c.o.provides: CMakeFiles/lem_in.dir/go_mla_2.c.o.requires
-	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_mla_2.c.o.provides.build
-.PHONY : CMakeFiles/lem_in.dir/go_mla_2.c.o.provides
+CMakeFiles/lem_in.dir/free_all.c.o.provides: CMakeFiles/lem_in.dir/free_all.c.o.requires
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/free_all.c.o.provides.build
+.PHONY : CMakeFiles/lem_in.dir/free_all.c.o.provides
 
-CMakeFiles/lem_in.dir/go_mla_2.c.o.provides.build: CMakeFiles/lem_in.dir/go_mla_2.c.o
+CMakeFiles/lem_in.dir/free_all.c.o.provides.build: CMakeFiles/lem_in.dir/free_all.c.o
 
 
 # Object files for target lem_in
@@ -407,8 +407,8 @@ lem_in_OBJECTS = \
 "CMakeFiles/lem_in.dir/find_ways_1.c.o" \
 "CMakeFiles/lem_in.dir/find_ways_2.c.o" \
 "CMakeFiles/lem_in.dir/find_ways_3.c.o" \
-"CMakeFiles/lem_in.dir/go_my_little_army.c.o" \
-"CMakeFiles/lem_in.dir/go_mla_2.c.o"
+"CMakeFiles/lem_in.dir/move_ants.c.o" \
+"CMakeFiles/lem_in.dir/free_all.c.o"
 
 # External object files for target lem_in
 lem_in_EXTERNAL_OBJECTS =
@@ -425,8 +425,8 @@ lem_in: CMakeFiles/lem_in.dir/reserve_ways.c.o
 lem_in: CMakeFiles/lem_in.dir/find_ways_1.c.o
 lem_in: CMakeFiles/lem_in.dir/find_ways_2.c.o
 lem_in: CMakeFiles/lem_in.dir/find_ways_3.c.o
-lem_in: CMakeFiles/lem_in.dir/go_my_little_army.c.o
-lem_in: CMakeFiles/lem_in.dir/go_mla_2.c.o
+lem_in: CMakeFiles/lem_in.dir/move_ants.c.o
+lem_in: CMakeFiles/lem_in.dir/free_all.c.o
 lem_in: CMakeFiles/lem_in.dir/build.make
 lem_in: CMakeFiles/lem_in.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable lem_in"
@@ -449,8 +449,8 @@ CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/reserve_ways.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_1.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_2.c.o.requires
 CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/find_ways_3.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/go_my_little_army.c.o.requires
-CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/go_mla_2.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/move_ants.c.o.requires
+CMakeFiles/lem_in.dir/requires: CMakeFiles/lem_in.dir/free_all.c.o.requires
 
 .PHONY : CMakeFiles/lem_in.dir/requires
 

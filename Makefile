@@ -8,14 +8,20 @@ LIBFT = $(LIB_PATH)libft.a
 FT_PRINTF_PATH = ft_printf
 FT_PRINTF = $(FT_PRINTF_PATH)/libftprintf.a
 
-OBJECTS = main.o \
+OBJECTS =   main.o \
             basic_function.o \
             init_room.o \
             validation.o \
             validation_rooms.o \
             validation_links.o \
-            find_ways.o \
+            find_ways_0.o \
+            find_ways_1.o \
+            find_ways_2.o \
+            find_ways_3.o \
             reserve_ways.o \
+            move_ants.o \
+            free_all.o \
+
 
 all: $(NAME)
 
@@ -32,13 +38,13 @@ $(NAME): libmk ft_printfmk $(OBJECTS)
 	gcc  $(WWW) -o $@ -c $<
 
 clean:
-	#make -C $(LIB_PATH) clean
-	#make -C $(FT_PRINTF_PATH) clean
+	make -C $(LIB_PATH) clean
+	make -C $(FT_PRINTF_PATH) clean
 	rm -f $(OBJECTS)
 
 fclean: clean
-	#rm -f $(LIBFT)
-	#rm -f $(FT_PRINTF)
+	rm -f $(LIBFT)
+	rm -f $(FT_PRINTF)
 	rm -f $(NAME)
 
 re: fclean all

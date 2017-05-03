@@ -6,8 +6,8 @@ t_field *init_field(void)
 
     if (!(tmp = (t_field*)malloc(sizeof(t_field))))
         exit(1);
-    tmp->head = NULL;
-    tmp->tail = NULL;
+    tmp->room_head = NULL;
+    tmp->room_tail = NULL;
     tmp->fd = 0; //DELETE
     tmp->size = 0;
     tmp->start_id = -1;
@@ -45,11 +45,11 @@ void	push_back_room(t_field *field)
         tmp->comment = 0;
     tmp->x = 0;
     tmp->y = 0;
-    if (field->tail)
-        field->tail->next = tmp;
-    field->tail = tmp;
-    if (field->head == NULL)
-        field->head = tmp;
+    if (field->room_tail)
+        field->room_tail->next = tmp;
+    field->room_tail = tmp;
+    if (field->room_head == NULL)
+        field->room_head = tmp;
     tmp->next = NULL;
 }
 

@@ -21,7 +21,7 @@ void ft_fill_int(int *arr, int size, int n)
 
 char *proom(t_field *field, int id)
 {
-    t_room *tmp = field->head;
+    t_room *tmp = field->room_head;
     while (tmp)
     {
         if (tmp->id == id)
@@ -32,4 +32,18 @@ char *proom(t_field *field, int id)
             break;
     }
     return (NULL);
+}
+
+void    free_strsplit(char ***line, int size)
+{
+    int i;
+
+    i = 0;
+    while (i < size)
+    {
+        free((*line)[i]);
+        (*line)[i++] = NULL;
+    }
+    free(*line);
+    *line = NULL;
 }

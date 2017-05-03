@@ -11,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/find_ways_1.c.o"
   "CMakeFiles/lem_in.dir/find_ways_2.c.o"
   "CMakeFiles/lem_in.dir/find_ways_3.c.o"
-  "CMakeFiles/lem_in.dir/go_my_little_army.c.o"
-  "CMakeFiles/lem_in.dir/go_mla_2.c.o"
+  "CMakeFiles/lem_in.dir/move_ants.c.o"
+  "CMakeFiles/lem_in.dir/free_all.c.o"
   "lem_in.pdb"
   "lem_in"
 )

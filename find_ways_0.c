@@ -19,8 +19,10 @@ static void    copy_way(t_field *field, int size)
 
     i = 0;
     push_back_ways(field, size);
-    while (field->visited[i] != -1 && i < field->size)
-        field->way_tail->way[i] = field->visited[i++];
+    while (field->visited[i] != -1 && i < field->size) {
+        field->way_tail->way[i] = field->visited[i];
+        i++;
+    }
 
 }
 

@@ -7,7 +7,7 @@ static int    check_start_end(t_field *field, char *line)
         if (field->start_id == -1)
             field->start_id = field->size;
         else
-            ft_error("Error. Can't be more than one way_tail/end!\n");
+            ft_error("Error. Can't be more than one start/end!\n");
         return (0);
     }
     else if (!ft_strcmp(line, "##end"))
@@ -15,7 +15,7 @@ static int    check_start_end(t_field *field, char *line)
         if (field->end_id == -1)
             field->end_id = field->size;
         else
-            ft_error("Error. Can't be more than one way_tail/end!\n");
+            ft_error("Error. Can't be more than one start/end!\n");
         return (0);
     }
     /*
@@ -43,18 +43,23 @@ static void     check_digit(char *str)
 static int    check_room_parameters(t_field *field, char **line)
 {
     int q_elem;
+    int i;
 
     q_elem = 0;
     if ((q_elem = find_quantity_elem_in_line(line)) == 1)
+    {
+        free_strsplit(&line, 1);
         return (1);
+    }
     else if (q_elem != 3)
         ft_error("Error. Bad room initalization. Too many parameters\n");
     push_back_room(field);
-    field->tail->name = ft_strdup(line[0]);
+    field->room_tail->name = ft_strdup(line[0]);
     check_digit(line[1]);
-    field->tail->x = ft_atoi(line[1]);
+    field->room_tail->x = ft_atoi(line[1]);
     check_digit(line[2]);
-    field->tail->x = ft_atoi(line[2]);
+    field->room_tail->x = ft_atoi(line[2]);
+    free_strsplit(&line, 3);
     return (0);
 }
 
@@ -70,5 +75,6 @@ int    validation_rooms(t_field *field, char **line)
         }
         ft_strdel(line);
     }
+    ft_strdel(line);
     return (0);
 }

@@ -54,9 +54,10 @@ int main(void)
     reserve_ways(field);
 
     n = 0;
-    if (!(field->visited = (int*)malloc(sizeof(int) * field->size)))
+    ft_printf("f-size = %d\n", field->size);
+    if (!(field->visited = (int*)malloc(sizeof(int) * (field->size + 1))))
         exit(1);
-    ft_fill_int(field->visited, field->size, -1);
+    ft_fill_int(field->visited, field->size + 1, -1);
     find_ways(field, field->start_id, n);
     write_ways_in_array(field);
     initialize_sets(field);
@@ -66,7 +67,7 @@ int main(void)
 
     /*-------INFO--------*/
     pways(field);
-    ft_printf("Количество путей = %d, Кол-во непересек = %d, lemings = %d\n", field->ways_quantity, field->max_path_in_way, field->ant_quantity);
+    ft_printf("ways_quantity = %d, max_path_in_way = %d, ant_quantity = %d\n", field->ways_quantity, field->max_path_in_way, field->ant_quantity);
     par2(field->set_ways, field->ways_quantity, -1);
     for(int m = 0; m < field->ways_quantity; m++){
         ft_printf("Size id(%d) = %d\n", m, field->size_ways[m]);
@@ -74,6 +75,9 @@ int main(void)
     ft_printf("shortest_len = %d, shortest_set_id = %d, set_len = %d\n", field->shortest_len, field->shortest_set_id, field->set_len);
     /*-------INFO--------*/
     stw(field);
+    free_project_memory(field);
+    free(field);
+    field = NULL;
     return (0);
 }
 

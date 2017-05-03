@@ -16,7 +16,7 @@ set(SOURCE_FILES main.c
         validation_links.c
         find_ways_0.c
         reserve_ways.c
-        find_ways_1.c find_ways_2.c find_ways_3.c move_ants.c)
+        find_ways_1.c find_ways_2.c find_ways_3.c move_ants.c free_all.c)
 
 add_executable(lem_in ${SOURCE_FILES}) # include all *.c files to make binary
 
