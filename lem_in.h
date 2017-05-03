@@ -4,8 +4,6 @@
 #include "ft_printf/ft_printf.h"
 #include "libft/libft.h"
 
-#include <stdio.h> // DELETE
-
 typedef struct  s_room
 {
     char *name;
@@ -24,14 +22,15 @@ typedef struct  s_ways
     struct s_ways   *next;
 }               t_ways;
 
-/*
+
 typedef struct  s_path
 {
-    int             *way;
-    int             size;
+    int             id;
+    int             ant_nb;
     struct s_path   *next;
+    struct s_path   *prev;
 }               t_path;
-*/
+
 
 typedef struct  s_field
 {
@@ -43,6 +42,7 @@ typedef struct  s_field
     int     start_id;
     int     end_id;
     int     shortest_set_id;
+    int     set_len;
     int     shortest_len;
     char    **matrix;
     int     max_path_in_way;
@@ -53,8 +53,8 @@ typedef struct  s_field
     int     **arr_ways;
     int     *size_ways;
     int     **set_ways;
-    //t_path  *path_head;
-    //t_path  *path_tail;
+    t_path  **path_head;
+    t_path  **path_tail;
 
 }               t_field;
 
@@ -62,15 +62,15 @@ typedef struct  s_field
  * basic function
  */
 int     find_quantity_elem_in_line(char **line);
-void ft_fill_int(int *arr, int size, int n);
+void    ft_fill_int(int *arr, int size, int n);
 
 /*
  * t_room/t_field function
  */
 t_field *init_field(void);
 void	push_back_room(t_field *field);
-void push_back_ways(t_field *field, int size);
-void	push_back_path(t_field *field, int size);
+void    push_back_ways(t_field *field, int size);
+void	push_back_path(t_field *field, int id, int i);
 
 /*
  * validation function
@@ -89,5 +89,11 @@ void    initialize_sets(t_field *field);
 void    fill_sets(t_field *field);
 void    sort_set_of_ways(t_field *field);
 void    find_shortest_way(t_field *field);
+void    stw(t_field *field);
+
+/*
+ * help function
+ */
+char *proom(t_field *field, int id);
 
 #endif

@@ -99,6 +99,12 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c">
+			<Option target="lem_in"/>
+		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/init_room.c">
 			<Option target="lem_in"/>
 		</Unit>

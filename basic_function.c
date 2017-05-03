@@ -18,3 +18,18 @@ void ft_fill_int(int *arr, int size, int n)
     while (size-- > 0)
         arr[i++] = n;
 }
+
+char *proom(t_field *field, int id)
+{
+    t_room *tmp = field->head;
+    while (tmp)
+    {
+        if (tmp->id == id)
+            return (tmp->name);
+        if (tmp->next)
+            tmp = tmp->next;
+        else
+            break;
+    }
+    return (NULL);
+}

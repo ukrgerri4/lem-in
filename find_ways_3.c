@@ -8,7 +8,7 @@ static int    find_len_way(t_field *field, int *set)
 
     len = 0;
     lemings = field->ant_quantity;
-    while (lemings)
+    while (lemings > 0)
     {
         lemings--;
         i = 1;
@@ -24,7 +24,7 @@ static int    find_len_way(t_field *field, int *set)
         }
         len++;
     }
-    return (len + set[i - 1]);
+    return (len + field->size_ways[set[i - 1]] - 1);
 }
 
 void    find_shortest_way(t_field *field)
@@ -43,4 +43,7 @@ void    find_shortest_way(t_field *field)
         }
         i++;
     }
+    i = 0;
+    while (field->set_ways[field->shortest_set_id][field->set_len] != -1)
+        field->set_len++;
 }

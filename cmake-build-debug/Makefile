@@ -258,6 +258,60 @@ find_ways_3.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/find_ways_3.c.s
 .PHONY : find_ways_3.c.s
 
+go_mla_2.o: go_mla_2.c.o
+
+.PHONY : go_mla_2.o
+
+# target to build an object file
+go_mla_2.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_mla_2.c.o
+.PHONY : go_mla_2.c.o
+
+go_mla_2.i: go_mla_2.c.i
+
+.PHONY : go_mla_2.i
+
+# target to preprocess a source file
+go_mla_2.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_mla_2.c.i
+.PHONY : go_mla_2.c.i
+
+go_mla_2.s: go_mla_2.c.s
+
+.PHONY : go_mla_2.s
+
+# target to generate assembly for a file
+go_mla_2.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_mla_2.c.s
+.PHONY : go_mla_2.c.s
+
+go_my_little_army.o: go_my_little_army.c.o
+
+.PHONY : go_my_little_army.o
+
+# target to build an object file
+go_my_little_army.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_my_little_army.c.o
+.PHONY : go_my_little_army.c.o
+
+go_my_little_army.i: go_my_little_army.c.i
+
+.PHONY : go_my_little_army.i
+
+# target to preprocess a source file
+go_my_little_army.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_my_little_army.c.i
+.PHONY : go_my_little_army.c.i
+
+go_my_little_army.s: go_my_little_army.c.s
+
+.PHONY : go_my_little_army.s
+
+# target to generate assembly for a file
+go_my_little_army.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/go_my_little_army.c.s
+.PHONY : go_my_little_army.c.s
+
 init_room.o: init_room.c.o
 
 .PHONY : init_room.o
@@ -471,6 +525,12 @@ help:
 	@echo "... find_ways_3.o"
 	@echo "... find_ways_3.i"
 	@echo "... find_ways_3.s"
+	@echo "... go_mla_2.o"
+	@echo "... go_mla_2.i"
+	@echo "... go_mla_2.s"
+	@echo "... go_my_little_army.o"
+	@echo "... go_my_little_army.i"
+	@echo "... go_my_little_army.s"
 	@echo "... init_room.o"
 	@echo "... init_room.i"
 	@echo "... init_room.s"

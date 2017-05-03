@@ -31,6 +31,18 @@ CMakeFiles/lem_in.dir/find_ways_3.c.o: ../lem_in.h
 CMakeFiles/lem_in.dir/find_ways_3.c.o: ../libft/get_next_line.h
 CMakeFiles/lem_in.dir/find_ways_3.c.o: ../libft/libft.h
 
+CMakeFiles/lem_in.dir/go_mla_2.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/go_mla_2.c.o: ../go_mla_2.c
+CMakeFiles/lem_in.dir/go_mla_2.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/go_mla_2.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/go_mla_2.c.o: ../libft/libft.h
+
+CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../go_my_little_army.c
+CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/go_my_little_army.c.o: ../libft/libft.h
+
 CMakeFiles/lem_in.dir/init_room.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/lem_in.dir/init_room.c.o: ../init_room.c
 CMakeFiles/lem_in.dir/init_room.c.o: ../lem_in.h

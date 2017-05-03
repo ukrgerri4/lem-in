@@ -34,8 +34,8 @@ void    pways(t_field *field) // DELETE!!
     {
         i = 0;
         ft_printf("Id = %d, Size = %d           ", tmp->id, tmp->size);
-        while (tmp->way[i] != -1 && i < field->size)
-            ft_printf("%d  ", tmp->way[i++]);
+        while (tmp->way[i] != -1)
+            ft_printf("%s  ", proom(field, tmp->way[i++]));
         ft_printf("\n");
         if (tmp->next)
             tmp = tmp->next;
@@ -71,8 +71,9 @@ int main(void)
     for(int m = 0; m < field->ways_quantity; m++){
         ft_printf("Size id(%d) = %d\n", m, field->size_ways[m]);
     }
-    ft_printf("S.len = %d, S.set_id = %d\n", field->shortest_len, field->shortest_set_id);
+    ft_printf("shortest_len = %d, shortest_set_id = %d, set_len = %d\n", field->shortest_len, field->shortest_set_id, field->set_len);
     /*-------INFO--------*/
+    stw(field);
     return (0);
 }
 

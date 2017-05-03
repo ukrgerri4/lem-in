@@ -13,6 +13,7 @@ t_field *init_field(void)
     tmp->start_id = -1;
     tmp->end_id = -1;
     tmp->shortest_set_id = -1;
+    tmp->set_len = 0;
     tmp->shortest_len = 0;
     tmp->max_path_in_way = 0;
     tmp->matrix = NULL;
@@ -23,8 +24,8 @@ t_field *init_field(void)
     tmp->arr_ways = NULL;
     tmp->size_ways = NULL;
     tmp->set_ways = NULL;
-//    tmp->path_head = NULL;
-//    tmp->path_tail = NULL;
+    tmp->path_head = NULL;
+    tmp->path_tail = NULL;
     return (tmp);
 }
 
@@ -58,10 +59,10 @@ void push_back_ways(t_field *field, int size)
 
     if (!(tmp = (t_ways*)malloc(sizeof(t_ways))))
         exit(1);
-    if (!(tmp->way = (int*)malloc(sizeof(int) * field->size)))
+    if (!(tmp->way = (int*)malloc(sizeof(int) * (field->size + 1))))
         exit(1);
     tmp->id = field->ways_quantity++;
-    ft_fill_int(tmp->way, field->size, -1);
+    ft_fill_int(tmp->way, (field->size + 1), -1);
     tmp->size = size;
     if (field->way_tail)
         field->way_tail->next = tmp;
@@ -71,21 +72,22 @@ void push_back_ways(t_field *field, int size)
     tmp->next = NULL;
 
 }
-/*
 
-void	push_back_path(t_field *field, int size)
+
+void	push_back_path(t_field *field, int id, int i)
 {
     t_path *tmp;
 
     if (!(tmp = (t_path*)malloc(sizeof(t_path))))
         exit(1);
-    if (!(tmp->way = (int*)malloc(sizeof(int) * size)))
-        exit(1);
-    tmp->size = size;
-    if (field->path_tail)
-        field->path_tail->next = tmp;
-    field->path_tail = tmp;
-    if (field->path_head == NULL)
-        field->path_head = tmp;
+    tmp->id = id;
+    tmp->ant_nb = -1;
     tmp->next = NULL;
-}*/
+    tmp->prev = field->path_tail[i];
+    if (field->path_tail[i])
+        field->path_tail[i]->next = tmp;
+    field->path_tail[i] = tmp;
+    if (field->path_head[i] == NULL)
+        field->path_head[i] = tmp;
+    tmp->next = NULL;
+}

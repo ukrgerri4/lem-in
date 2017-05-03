@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ukrgerri4/CLionProjects/lem-in/find_ways_1.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/find_ways_1.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/find_ways_2.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/find_ways_2.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/find_ways_3.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/find_ways_3.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/go_mla_2.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/go_mla_2.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/go_my_little_army.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/go_my_little_army.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/init_room.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/init_room.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/main.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"

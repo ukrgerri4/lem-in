@@ -71,6 +71,9 @@ static int compare(t_field *field, int *set, int *x)
             }
             j++;
         }
+        if (field->arr_ways[set[i]][0] == x[0] && field->arr_ways[set[i]][1] == x[1] &&
+                field->arr_ways[set[i]][2] == x[2])
+            return (0);
         i++;
     }
     return (1);
