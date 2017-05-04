@@ -12,7 +12,7 @@ int     find_quantity_elem_in_line(char **line)
 
 void ft_fill_int(int *arr, int size, int n)
 {
-    int				i;
+    int i;
 
     i = 0;
     while (size-- > 0)
@@ -21,7 +21,9 @@ void ft_fill_int(int *arr, int size, int n)
 
 char *proom(t_field *field, int id)
 {
-    t_room *tmp = field->room_head;
+    t_room  *tmp;
+
+    tmp = field->room_head;
     while (tmp)
     {
         if (tmp->id == id)

@@ -15,9 +15,7 @@ void    free_rooms(t_field *field)
         free(tmp);
         tmp = next;
     }
-//    free(field->room_head);
     field->room_head = NULL;
-//    free(field->room_tail);
     field->room_tail = NULL;
 }
 
@@ -52,9 +50,7 @@ void    free_ways(t_field *field)
         free(tmp);
         tmp = next;
     }
-//    free(field->way_head);
     field->way_head = NULL;
-//    free(field->way_tail);
     field->way_tail = NULL;
 }
 

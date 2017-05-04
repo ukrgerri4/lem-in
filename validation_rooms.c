@@ -18,12 +18,8 @@ static int    check_start_end(t_field *field, char *line)
             ft_error("Error. Can't be more than one start/end!\n");
         return (0);
     }
-    /*
-    else if (line[0] == '#' && !*flag)
-    {
-        return (*flag = 123456); // do somthing;
-    }
-    */
+    else if (line[0] == '#')
+        return (0);
     else
         return (1);
 }
@@ -43,7 +39,6 @@ static void     check_digit(char *str)
 static int    check_room_parameters(t_field *field, char **line)
 {
     int q_elem;
-    int i;
 
     q_elem = 0;
     if ((q_elem = find_quantity_elem_in_line(line)) == 1)
@@ -67,6 +62,7 @@ int    validation_rooms(t_field *field, char **line)
 {
     while (get_next_line(field->fd, line))
     {
+        ft_printf("%s\n", *line);
         if (check_start_end(field, *line))
         {
             if (check_room_parameters(field, ft_strsplit(*line, ' ')) == 1)

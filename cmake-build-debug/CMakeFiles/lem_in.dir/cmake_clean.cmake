@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lem_in.dir/find_ways_3.c.o"
   "CMakeFiles/lem_in.dir/move_ants.c.o"
   "CMakeFiles/lem_in.dir/free_all.c.o"
+  "CMakeFiles/lem_in.dir/output.c.o"
   "lem_in.pdb"
   "lem_in"
 )

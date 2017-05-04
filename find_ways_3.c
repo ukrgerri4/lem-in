@@ -43,7 +43,6 @@ void    find_shortest_way(t_field *field)
         }
         i++;
     }
-    i = 0;
     while (field->set_ways[field->shortest_set_id][field->set_len] != -1)
         field->set_len++;
 }

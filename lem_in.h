@@ -36,7 +36,7 @@ typedef struct  s_field
 {
     t_room  *room_head;
     t_room  *room_tail;
-    int     fd;//DELETE
+    int     fd;
     int     ant_quantity;
     int     size;
     int     start_id;
@@ -91,7 +91,12 @@ void    initialize_sets(t_field *field);
 void    fill_sets(t_field *field);
 void    sort_set_of_ways(t_field *field);
 void    find_shortest_way(t_field *field);
-void    stw(t_field *field);
+
+/*
+ * move_ants function
+ */
+void    make_way(t_field *field);
+void    show_them_way(t_field *field);
 
 /*
  * free function

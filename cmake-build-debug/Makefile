@@ -393,6 +393,33 @@ move_ants.c.s:
 	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/move_ants.c.s
 .PHONY : move_ants.c.s
 
+output.o: output.c.o
+
+.PHONY : output.o
+
+# target to build an object file
+output.c.o:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/output.c.o
+.PHONY : output.c.o
+
+output.i: output.c.i
+
+.PHONY : output.i
+
+# target to preprocess a source file
+output.c.i:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/output.c.i
+.PHONY : output.c.i
+
+output.s: output.c.s
+
+.PHONY : output.s
+
+# target to generate assembly for a file
+output.c.s:
+	$(MAKE) -f CMakeFiles/lem_in.dir/build.make CMakeFiles/lem_in.dir/output.c.s
+.PHONY : output.c.s
+
 reserve_ways.o: reserve_ways.c.o
 
 .PHONY : reserve_ways.o
@@ -540,6 +567,9 @@ help:
 	@echo "... move_ants.o"
 	@echo "... move_ants.i"
 	@echo "... move_ants.s"
+	@echo "... output.o"
+	@echo "... output.i"
+	@echo "... output.s"
 	@echo "... reserve_ways.o"
 	@echo "... reserve_ways.i"
 	@echo "... reserve_ways.s"

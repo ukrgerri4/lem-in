@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ukrgerri4/CLionProjects/lem-in/libft/ft_error.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/libft/ft_error.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/main.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/main.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/move_ants.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/move_ants.c.o"
+  "/home/ukrgerri4/CLionProjects/lem-in/output.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/output.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/reserve_ways.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/validation.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation.c.o"
   "/home/ukrgerri4/CLionProjects/lem-in/validation_links.c" "/home/ukrgerri4/CLionProjects/lem-in/cmake-build-debug/CMakeFiles/lem_in.dir/validation_links.c.o"

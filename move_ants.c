@@ -67,13 +67,29 @@ static void    check_lemings(t_field *field)
     }
 }
 
-void    stw(t_field *field)
+void    show_them_way_continuation(t_field *field, int *lemings, int i)
+{
+    while (i < field->set_len && *lemings <= field->ant_quantity)
+    {
+        if (((field->ant_quantity - *lemings + 1) -
+                field->size_ways[field->set_ways[field->shortest_set_id][i]]) >= 0)
+        {
+            field->path_head[i]->next->ant_nb = (*lemings)++;
+            ft_printf("L%d-%s ", field->path_head[i]->next->ant_nb,
+                      proom(field, field->path_head[i]->next->id));
+            i++;
+        }
+        else
+            break;
+    }
+}
+
+        void    show_them_way(t_field *field)
 {
     int lemings;
     int i;
     int count;
 
-    make_way(field);
     lemings = 1;
     count = 0;
     while (count < field->shortest_len)
@@ -82,19 +98,10 @@ void    stw(t_field *field)
         if (lemings <= field->ant_quantity)
         {
             field->path_head[0]->next->ant_nb = lemings++;
-            ft_printf("L%d-%s ", field->path_head[0]->next->ant_nb, proom(field, field->path_head[0]->next->id));
+            ft_printf("L%d-%s ", field->path_head[0]->next->ant_nb,
+                      proom(field, field->path_head[0]->next->id));
             i = 1;
-            while (i < field->set_len && lemings <= field->ant_quantity)
-            {
-                if (((field->ant_quantity - lemings + 1) - field->size_ways[field->set_ways[field->shortest_set_id][i]]) >= 0)
-                {
-                    field->path_head[i]->next->ant_nb = lemings++;
-                    ft_printf("L%d-%s ", field->path_head[i]->next->ant_nb,
-                              proom(field, field->path_head[i]->next->id));
-                    i++;
-                } else
-                    break;
-            }
+            show_them_way_continuation(field, &lemings, i);
         }
         ft_printf("\n");
         count++;

@@ -117,6 +117,9 @@
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/move_ants.c">
 			<Option target="lem_in"/>
 		</Unit>
+		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/output.c">
+			<Option target="lem_in"/>
+		</Unit>
 		<Unit filename="/home/ukrgerri4/CLionProjects/lem-in/reserve_ways.c">
 			<Option target="lem_in"/>
 		</Unit>
