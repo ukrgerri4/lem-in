@@ -46,7 +46,7 @@ static void     write_link(t_field *field, char **line)
     int i;
 
     if ((find_quantity_elem_in_line(line)) != 2)
-        ft_error("Error. Bad links initalization. Too many rooms\n");
+        ft_error("Error. Bad links initalization.\n");
     y = room_id(field, line[0]);
     x = room_id(field, line[1]);
     field->matrix[y][x] = 1;

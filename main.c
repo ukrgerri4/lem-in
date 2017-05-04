@@ -52,9 +52,7 @@ int main(void)
     field = init_field();
     validation(field);
     reserve_ways(field);
-
     n = 0;
-    ft_printf("f-size = %d\n", field->size);
     if (!(field->visited = (int*)malloc(sizeof(int) * (field->size + 1))))
         exit(1);
     ft_fill_int(field->visited, field->size + 1, -1);

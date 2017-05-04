@@ -5,7 +5,7 @@ void    validation(t_field *field)
     char    *line;
 
     line = NULL;
-    field->fd = open("1.txt",O_RDONLY);
+    field->fd = open("map.txt",O_RDONLY);
     get_next_line(field->fd, &line);
     if (!ft_isdigit(line[0]))
         ft_error("Error. There is no number of ants.\n");
