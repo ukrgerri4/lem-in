@@ -20,7 +20,7 @@ t_field	*init_field(void)
 		exit(1);
 	tmp->room_head = NULL;
 	tmp->room_tail = NULL;
-	tmp->fd = 0;
+	tmp->fd = open("../map.txt", O_RDONLY);
 	tmp->size = 0;
 	tmp->start_id = -1;
 	tmp->end_id = -1;

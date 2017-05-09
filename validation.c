@@ -43,5 +43,7 @@ void	validation(t_field *field)
 	ft_strdel(&line);
 	if (!validation_rooms(field, &line))
 		ft_error("Error. Start/End room.\n");
+	if (field->start_id == -1 || field->end_id == -1)
+		ft_error("Error. There are no start/end room!\n");
 	validation_links(field, line);
 }

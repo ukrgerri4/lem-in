@@ -14,22 +14,22 @@
 
 static int	check_start_end(t_field *field, char *line)
 {
-	if (ft_strstr(line, "##start"))
-	{
-		if (field->start_id == -1 && !ft_strcmp(line, "##start"))
-			field->start_id = field->size;
-		else
-			ft_error("Error. In ##start/##end definition!\n");
-		return (0);
-	}
-	else if (ft_strstr(line, "##end"))
-	{
-		if (field->end_id == -1 && !ft_strcmp(line, "##end"))
-			field->end_id = field->size;
-		else
-			ft_error("Error. In ##start/##end definition!\n");
-		return (0);
-	}
+    if (!ft_strcmp(line, "##start"))
+    {
+        if (field->start_id == -1)
+            field->start_id = field->size;
+        else
+            ft_error("Error. Can't be more than one start/end!\n");
+        return (0);
+    }
+    else if (!ft_strcmp(line, "##end"))
+    {
+        if (field->end_id == -1)
+            field->end_id = field->size;
+        else
+            ft_error("Error. Can't be more than one start/end!\n");
+        return (0);
+    }
 	else if (line[0] == '#')
 		return (0);
 	else

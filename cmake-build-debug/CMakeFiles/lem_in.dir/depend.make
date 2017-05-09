@@ -59,6 +59,12 @@ CMakeFiles/lem_in.dir/move_ants.c.o: ../libft/get_next_line.h
 CMakeFiles/lem_in.dir/move_ants.c.o: ../libft/libft.h
 CMakeFiles/lem_in.dir/move_ants.c.o: ../move_ants.c
 
+CMakeFiles/lem_in.dir/output.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/lem_in.dir/output.c.o: ../lem_in.h
+CMakeFiles/lem_in.dir/output.c.o: ../libft/get_next_line.h
+CMakeFiles/lem_in.dir/output.c.o: ../libft/libft.h
+CMakeFiles/lem_in.dir/output.c.o: ../output.c
+
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../lem_in.h
 CMakeFiles/lem_in.dir/reserve_ways.c.o: ../libft/get_next_line.h
