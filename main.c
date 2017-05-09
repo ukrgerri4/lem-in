@@ -25,6 +25,8 @@ int	main(void)
 		exit(1);
 	ft_fill_int(field->visited, field->size + 1, -1);
 	find_ways(field, field->start_id, n);
+    if (!field->way_head)
+        ft_error("Error. There are no ways!\n");
 	write_ways_in_array(field);
 	initialize_sets(field);
 	fill_sets(field);

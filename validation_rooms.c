@@ -44,7 +44,7 @@ static void	check_digit(char *str)
 	while (str[i])
 	{
 		if (!ft_isdigit(str[i++]))
-			ft_error("Error. Bad room initalization. Coordinates not digit\n");
+			ft_error("Error. Bad room initalization. Coordinates not digit!\n");
 	}
 }
 
@@ -68,7 +68,7 @@ static int	check_room_parameters(t_field *field, char **line)
 		return (1);
 	}
 	else if (q_elem != 3)
-		ft_error("Error. Bad room initalization. Too many parameters\n");
+		ft_error("Error. Bad room initalization. Too many parameters!\n");
 	push_back_room(field);
 	check_room_name(line[0]);
 	field->room_tail->name = ft_strdup(line[0]);
